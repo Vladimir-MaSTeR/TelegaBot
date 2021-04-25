@@ -6,7 +6,7 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 
 @RequiredArgsConstructor
 public class UnknownCommand implements Command {
-    private final static String UNKNOWN_MESSAGE = "Не понимаю вас \uD83D\uDE1F, " +
+    protected final static String UNKNOWN_MESSAGE = "Не понимаю вас \uD83D\uDE1F, " +
             "напишите /help чтобы узнать что я понимаю.";
 
     private final SendBotMessageService sendBotMessageService;
