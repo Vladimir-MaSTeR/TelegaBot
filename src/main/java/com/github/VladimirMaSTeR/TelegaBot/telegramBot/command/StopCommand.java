@@ -6,7 +6,7 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 
 @RequiredArgsConstructor
 public class StopCommand implements Command {
-    private final static String STOP_MESSAGE = "Понял, завершаю работу. \uD83D \uDE1F.";
+    protected final static String STOP_MESSAGE = "Понял, завершаю работу. \uD83D \uDE1F.";
 
     private final SendBotMessageService sendBotMessageService;
 
